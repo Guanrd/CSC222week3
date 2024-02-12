@@ -20,6 +20,18 @@ public class Main {
 
     //Print out the name using string literals/concatenation
     System.out.println("You entered:"+name);
-    }//ends main method
 
+    //Create a variable to hold the favorite color
+    String color;
+    //Ask the user's favorite color
+    System.out.print("What's your favorite color");
+    color = input.nextLine();
+    //Print out the color using string literals/concatenation
+    System.out.println("You entered:"+color);
+
+
+
+
+
+    }//ends main method
 }//ends Main class
